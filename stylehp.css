@@ -72,8 +72,12 @@ p{
 .paragraph ul {
     text-align: center;
     list-style: inside;
+    margin-left: -70px;
 }
 .paragraph{
     margin-right: auto;
     margin-left: auto;
+}
+.paragraph p{
+    font-weight: 600;
 }
