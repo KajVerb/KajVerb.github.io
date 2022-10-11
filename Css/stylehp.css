@@ -43,12 +43,12 @@ p{
     margin-right: 10px;
 }
 .reizen{
-    background-image: url(images/werkenbuitenland.jpg);
+    background-image: url(/images/werkenbuitenland.jpg);
     text-decoration: none;
 }
 
 .problemen{
-    background-image: url(images/problemen.jpg);
+    background-image: url(/images/problemen.jpg);
     text-decoration: none;
 }
 .link{
