@@ -17,12 +17,13 @@ h1{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-.geslaagd{
+.image{ 
   width: 300px;
   margin-left: 5px;
   box-shadow: 2px 2px 2px 2px black;
   flex: 50%;
   max-width: 350px;
+  margin-top: 10px;
 }
 
 .text{
@@ -31,6 +32,7 @@ h1{
   max-width: 350px;
   margin-left: 20px;
 }
+
 .container{
   flex-direction: row;
   display: flex;

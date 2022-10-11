@@ -1,6 +1,11 @@
-h1 {
+h1{
+    margin-top: 100px;
+    padding-top: 20px;
     text-align: center;
-}
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
 
 h2 {
     color: white;
@@ -12,23 +17,112 @@ p {
     text-align: center;
 
 }
-
-.blogs{
+.swotblog{
     padding: 40px;
     margin: 20px;
     width: 300px;
     height: 200px;
-    background: rgba(0, 0, 0, 0.6);
+    /* background: rgba(0, 0, 0, 0.6); */
     background-size: cover;
     background-clip: border-box;
     color: white;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 3px 3px 3px 3px;
     text-decoration: none;
     z-index: 1;
     margin-top: 40px;
+    background-image: url(images/swot.png);
+    opacity: .8;
 }
-
+.programmingblog{
+    padding: 40px;
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    background-size: cover;
+    background-clip: border-box;
+    color: white;
+    border: 2px solid black;
+    border-radius: 3px 3px 3px 3px;
+    text-decoration: none;
+    z-index: 1;
+    margin-top: 40px;
+    background-image: url(images/ervaring.png);
+    opacity: .8;
+}
+.studiekeuzeblog{
+    padding: 40px;
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    background-size: cover;
+    background-clip: border-box;
+    background-position: center;
+    color: white;
+    border: 2px solid black;
+    border-radius: 3px 3px 3px 3px;
+    text-decoration: none;
+    z-index: 1;
+    margin-top: 40px;
+    background-image: url(images/studiekeuze.png);
+    opacity: .8;
+}
+.wunderdogblog{
+    padding: 40px;
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    background-size: cover;
+    background-clip: border-box;
+    background-position: center;
+    color: white;
+    border: 2px solid black;
+    border-radius: 3px 3px 3px 3px;
+    text-decoration: none;
+    z-index: 1;
+    margin-top: 40px;
+    background-image: url(images/download.png);
+    opacity: .8;
+}
+.feedbackblog{
+    padding: 40px;
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    /* background: rgba(0, 0, 0, 0.6); */
+    background-size: cover;
+    background-clip: border-box;
+    background-position: center;
+    color: white;
+    border: 2px solid black;
+    border-radius: 3px 3px 3px 3px;
+    text-decoration: none;
+    z-index: 1;
+    margin-top: 40px;
+    background-image: url(images/feedback-jpg.jpg);
+    opacity: .8;
+}
+.studiekeuzeblog h2,.programmingblog h2,.swotblog h2,.wunderdogblog h2,.feedbackblog h2{
+    opacity: 1;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 50px;
+    max-width: 300px;
+}
+.programmingblog h2{
+    opacity: 1;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 30px;
+    max-width: 300px;
+}
 
 .container a, .container2 a {
     text-decoration: none;
