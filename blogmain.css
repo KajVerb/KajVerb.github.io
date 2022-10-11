@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+
+}
+
+.blogs{
+    padding: 40px;
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-clip: border-box;
+    color: white;
+    border: 2px solid white;
+    border-radius: 3px 3px 3px 3px;
+    text-decoration: none;
+    z-index: 1;
+    margin-top: 40px;
+}
+
+
+.container a, .container2 a {
+    text-decoration: none;
+    transition: all .2s cubic-bezier(.05,.51,.72,1);
+    z-index: 1;
+}
+
+.container a:visited, .container2 a:visited {
+    text-decoration: none;
+    color: white;
+}
+.container a:hover,.container2 a:hover {
+    transform: scale(1.04);
+    z-index: 1;
+}
+
+.container a:active,.container2 a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.container,
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1000px) {
+
+    .container,
+    .container2 {
+        flex-direction: column;
+    }
+}

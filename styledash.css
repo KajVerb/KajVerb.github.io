@@ -1,0 +1,58 @@
+th, td, tr{
+    border: 1px solid white;
+    padding: 18px 17px;
+    color: aliceblue;
+}
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    margin-top: 110px;
+}
+
+.dashboard{
+    background: rgba(0,0,0,0.8);
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 520px;
+    margin: auto;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.progress {
+	background-color: #d8d8d8;
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: 30px;
+	width: 300px;
+    display: flex;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.progress-done {
+	background: linear-gradient(to left, #f32121, #f43b3b);
+	box-shadow: 0 3px 3px -5px #f16360, 0 2px 5px #f27070;
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
