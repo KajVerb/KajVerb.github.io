@@ -36,6 +36,9 @@ h1 {
     .container2 {
         flex-direction: column;
     }
+    .block{
+        width: 700px;
+    }
 }
 
 p{
