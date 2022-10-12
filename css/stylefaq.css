@@ -94,6 +94,15 @@ body{
       flex-direction: column;
   }
 }
-a:link{
-  text-decoration: none!important;
+.site a:link{
+  text-decoration: none;
+  color: purple;
+}
+.site a:visited{
+  text-decoration: none;
+  color: purple;
+}
+.site a:hover{
+  text-decoration: none;
+  color: red;
 }
