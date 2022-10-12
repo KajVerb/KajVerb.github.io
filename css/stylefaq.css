@@ -94,3 +94,6 @@ body{
       flex-direction: column;
   }
 }
+a:link{
+  text-decoration: none!important;
+}

@@ -1,5 +1,5 @@
 const progress = document.querySelector('.progress-done');
-let input = 45
+let input = 30
 const percentage = Math.floor(input/60*100)
 
 const dataDone = progress.getAttribute('data-done');
