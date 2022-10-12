@@ -1,5 +1,5 @@
 const progress = document.querySelector('.progress-done');
-let input = 45
+let input = 20
 const percentage = Math.floor(input/60*100)
 
 const dataDone = progress.getAttribute('data-done');
@@ -24,4 +24,6 @@ else{
 document.getElementById("propedeuse").innerHTML = "Propedeuse: " + input + "/60!";
 if (input = 45)
   document.getElementById("nbsa").style.color = "limegreen"
+if (input = 45)
+document.getElementById("propedeuse").style.color = "limegreen"
 
