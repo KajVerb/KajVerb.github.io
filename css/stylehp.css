@@ -11,7 +11,7 @@ h1 {
 .block{
     background: rgba(250, 250, 250, 0.662);
     height: 100;
-    width: 700px;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
@@ -44,7 +44,10 @@ p{
 }
 .reizen{
     background-image: url(/images/werkenbuitenland.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     text-decoration: none;
+    background-position: center ;
 }
 
 .problemen{
